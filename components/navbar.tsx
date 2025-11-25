@@ -33,10 +33,10 @@ export function Navbar() {
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
             <Image
-              src="/GaraPanda_logo.png"
+              src="/GaraPanda_solo.png"
               alt="Logo de GaraPanda"
-              width={96}
-              height={96}
+              width={50}
+              height={50}
               className="h-24 w-24 object-contain drop-shadow-md"
               priority
             />
