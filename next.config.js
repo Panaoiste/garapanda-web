@@ -21,7 +21,8 @@ const withMDX = require('@next/mdx')({
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
-  // output: 'export', lo comento porque me lo dijo gemini para poder subir a vercel
+  //output: 'export', 
+  distDir: 'out', // Agrega esta línea
   images: {
     unoptimized: true,
   },
