@@ -33,7 +33,7 @@ export function Navbar() {
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
             <Image
-              src="/GaraPanda_Solo.png"
+              src="/GaraPanda_logo.png"
               alt="Logo de GaraPanda"
               width={96}
               height={96}
