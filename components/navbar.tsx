@@ -35,9 +35,9 @@ export function Navbar() {
             <Image
               src="/GaraPanda_Solo.png"
               alt="Logo de GaraPanda"
-              width={96}
-              height={96}
-              className="h-24 w-24 object-contain drop-shadow-md"
+              width={58}//antes 96
+              height={58}//antes 96
+              className="h-14 w-14 object-contain drop-shadow-md"//entes h.24 w.24
               priority
             />
           </Link>
